@@ -5,7 +5,7 @@
     <link rel="icon" type="image/x-icon" href="./images/icons/tab-icon.png">
     <link rel="stylesheet" type="text/css" href="./css/navbar.css">
     <link rel="stylesheet" type="text/css" href="./css/header.css">
-    <link rel="stylesheet" type="text/css" href="./css/slider.css">
+    <link rel="stylesheet" type="text/css" href="./css/content.css">
 </head>
 
 <body>
@@ -31,21 +31,23 @@
         </div>
     </div>
     <div id="navbar">
-        <a>About</a>
-        <a>Education</a>
-        <a>Projects</a>
-        <a>Certificates</a>
+        <a onclick="window.location='#about'">About</a>
+        <a onclick="window.location='#education'">Education</a>
+        <a onclick="window.location='#projects'">Projects</a>
+        <a onclick="window.location='#certificates'">Certificates</a>
     </div>
-    <div id="slideshow">
-        <div id="slide-wrapper">
-            <div id="about" class="slide">
-                <p> Aenean finibus nulla a nisl facilisis sodales. Phasellus pharetra sit amet quam eget cursus. Etiam congue lobortis mattis. Integer venenatis posuere orci id consectetur. Suspendisse potenti. Sed rutrum condimentum velit. Suspendisse ipsum
-                    eros, fermentum a felis laoreet, ullamcorper efficitur lacus. Nulla quis nisl maximus, maximus purus a, malesuada tellus. Morbi ultrices, purus a mattis facilisis, lorem tellus porttitor massa, in feugiat lorem arcu ac metus. Nullam
-                    orci metus, suscipit id quam at, laoreet hendrerit est. </p>
-            </div>
-            <div id="education" class="slide"></div>
-            <div id="projects" class="slide"></div>
-            <div id="certificates" class="slide"></div>
+    <div id="container">
+        <div id="about" class="content">
+            About
+        </div>
+        <div id="education" class="content">
+            Education
+        </div>
+        <div id="projects" class="content">
+            Projects
+        </div>
+        <div id="certificates" class="content">
+            Certificates
         </div>
     </div>
 </body>
